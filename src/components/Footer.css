@@ -1,0 +1,75 @@
+.footer {
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.company-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-details img {
+    width: 180px;
+    height: 50px;
+}
+
+.company-details p {
+    max-width: 400px;
+    margin: 10px 0;
+}
+
+.links {
+    margin: 10px 20px;
+}
+
+.links h4 {
+    padding: 10px 0;
+    color: #ff6600;
+    font-weight: 400;
+}
+
+.links p {
+    font-weight: 300;
+    font-size: small;
+}
+
+.links p:hover {
+    cursor: pointer;
+    color:#ff6600;
+}
+
+.follow {
+    margin: 10px 20px;
+    padding: 10px 0;
+    color: #ff6600;
+    font-weight: 400;
+}
+
+.linkedin, .instagram, .youtube {
+    margin: 10px;
+}
+
+.facebook {
+    margin: 10px 10px 10px 0;
+}
+
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-icon {
+    /* font-size: 200px; */
+    color: #282828;
+}
+
+.social-icon:hover {
+    cursor: pointer;
+    color: #ff6600;
+}

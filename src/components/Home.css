@@ -1,0 +1,128 @@
+.home {
+    background: linear-gradient(0deg, rgba(50, 50, 50, 0.66), rgba(50, 50, 50, 0.66)), url("../images/homeImage.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 789px;
+    padding-top: 40px;
+}
+
+.home-content {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-para {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #FFFFFF;
+    max-width: 600px;
+    margin: 20px;
+    font-size: 16px;
+}
+
+.home-content span {
+    color: #FF6600;
+    font-weight: bold;
+}
+
+.circle-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 3px solid #FF6600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.circle .icon {
+    width: 40px;
+    height: 40px;
+    color: #FFFFFF;
+}
+
+.cta {
+    background-color: #282828;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    max-width: 300px;
+    font-size: 16px;
+    padding: 10px 30px;
+}
+
+.cta:hover {
+    background-color: #FFFFFF;
+    color: #FF6600;
+    cursor: pointer;
+}
+
+.cta-section {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .cta-section {
+        margin-top: 0;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+    }
+
+    .circle-cta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 5px;
+    }
+    
+    .circle {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 2px solid #FF6600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8px;
+    }
+    
+    .circle .icon {
+        width: 20px;
+        height: 20px;
+        color: #FFFFFF;
+    }
+    
+    .cta {
+        background-color: #282828;
+        border-radius: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        color: #FFFFFF;
+        max-width: 150px;
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .home {
+        padding-top: 10px;
+    }
+}
