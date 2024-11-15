@@ -20,7 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 
 .central-support {
@@ -33,6 +33,24 @@
   border-right: 2px solid #ff6600;
 }
 
+.contact-submit {
+  background-color: #ff6600;
+  padding: 10px 15px;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid #282828;
+  border-radius: 10px;
+  font-size: medium;  
+  margin-left: 5px;
+}
+
+.contact-submit:hover {
+  background-color: #FFFFFF;
+  color: #282828;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
 .contact-details {
   padding: 20px 40px;
   flex: 30%;
@@ -41,29 +59,29 @@
 
 .contact-details p {
   color: #ffffff;
-  max-width: 300px;
+  max-width: 340px;
 }
 
-.personal-details input {
+/* .personal-details input {
   border: none;
-  width: 100%;
+  width: 50%;
   height: 40px;
   margin: 10px;
   border-radius: 8px;
   padding: 8px;
   font-family: "Poppins", sans-serif;
-}
+} */
 
 .personal-details {
   display: flex;
   width: 100%;
-  justify-content: center;
-}
+  justify-content: space-between;
+} 
 
 
-.subject {
+.contact-item {
   width: 100%;
-  margin: 10px;
+  margin: 10px 0;
   height: 40px;
   border: none;
   border-radius: 8px;
@@ -71,6 +89,32 @@
   font-family: "Poppins", sans-serif;
 }
 
+.name, .email {
+  margin-right: 10px;
+}
+
 .message {
     height: 200px;
+}
+
+.contact-page {
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 500px) {
+  .contact form {
+    border-right: none;
+  }
+
+  .contact-details {
+    border-left: 2px solid #ff6600;
+    padding: 0 15px;
+    max-width: 350px;
+    /* margin-left: 12px; */
+  }
+
+  .personal-details {
+    display: flex;
+    flex-direction: column;
+  }
 }

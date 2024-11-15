@@ -1,0 +1,44 @@
+.blur-section {
+    margin-top: 80px;
+}
+
+.blur-bg {
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/comingsoon.jpg");
+
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;  
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+
+    position: relative;
+}
+
+.blur-text {
+    position: absolute;
+    top: calc(70% - 20vh);
+    left: calc(50% - 30vw);
+    width: 60vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #FF6600;
+    padding: 50px;
+    font-size: 40px;
+}
+
+.blur-section p {
+    color: #FF6600;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    background-color: #FFFFFF;
+}

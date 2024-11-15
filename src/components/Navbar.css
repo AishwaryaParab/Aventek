@@ -10,13 +10,17 @@
     top: 0;
     left: 0;
     background-color: #FFFFFF;
-    width: 100%;
+    width: 100vw;
     z-index: 3;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 
 .nav-items {
     display: flex;
+}
+
+.nav-items li {
+    list-style: none;
 }
 
 .nav-items .item-name {
@@ -28,7 +32,7 @@
 .nav-items .item-name:hover {
     /* text-decoration: underline; */
     cursor: pointer;
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid #FF6600;
     margin-bottom: -2px;
 }
 
@@ -38,6 +42,7 @@
 
     width: 150px;
     height: 40px;
+    cursor: pointer;
 }
 
 .nav-toggle {
@@ -107,7 +112,7 @@
     .nav-items-mobile .item-name:hover {
         /* text-decoration: underline; */
         cursor: pointer;
-        border-bottom: 2px solid orange;
+        border-bottom: 2px solid #FF6600;
         margin-bottom: 18px;
 
     }

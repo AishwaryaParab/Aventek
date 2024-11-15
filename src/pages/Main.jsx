@@ -1,6 +1,6 @@
-import React from "react";
-// import "./styles.css";
-import { Contact, Footer, Home, Navbar, Slider } from "../components";
+import React, { useRef } from "react";
+import "../styles.css";
+import { Contact, Footer, Home, Navbar, Slider, Strip } from "../components";
 
 function Main() {
   return (
@@ -8,6 +8,7 @@ function Main() {
         <Navbar />
         <Home />
         <Slider />
+        <Strip />
         <Contact />
         <Footer />
     </div>

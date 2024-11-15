@@ -6,7 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 40px;
+    margin: 20px;
 }
 
 .company-details {
@@ -72,4 +72,12 @@
 .social-icon:hover {
     cursor: pointer;
     color: #ff6600;
+}
+
+.copyright {
+    background-color: #282828;
+    color: #FFFFFF;
+    font-size: small;
+    padding: 5px;
+    text-align: center;
 }

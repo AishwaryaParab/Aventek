@@ -9,17 +9,19 @@ export const cta = [
     {
         id: 1,
         icon: faBook,
-        cta: "Aventek Catalog"
-        
+        cta: "Spare Parts Catalog",
+        navigate: '/catalog'
     },
     {
         id: 2,
         icon: faGear,
-        cta: "Avail our Services"
+        cta: "Avail our Services",
+        navigate: '/services'
     },
     {
         id: 3,
         icon: faPhone,
-        cta: "Book a Call"
+        cta: "Book a Call",
+        navigate: '/contact'
     }
 ]
