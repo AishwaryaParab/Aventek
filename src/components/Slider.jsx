@@ -7,7 +7,6 @@ import {
   faArrowAltCircleRight,
 } from "@fortawesome/free-regular-svg-icons";
 import { useNavigate } from "react-router-dom";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Slider = () => {
   const [slide, setSlide] = useState(0);
@@ -16,7 +15,7 @@ const Slider = () => {
   const navigate = useNavigate();
 
   const prevClick = () => {
-    if (slide == 0) {
+    if (slide === 0) {
       setSlide(len - 1);
     } else {
       setSlide((prev) => prev - 1);
@@ -24,7 +23,7 @@ const Slider = () => {
   };
 
   const nextClick = () => {
-    if (slide == len - 1) {
+    if (slide === len - 1) {
       setSlide(0);
     } else {
       setSlide((prev) => prev + 1);
@@ -60,6 +59,9 @@ const Slider = () => {
         navigate("/contact");
         break;
       }
+
+      default:
+        break;
     }
   };
 
@@ -72,37 +74,30 @@ const Slider = () => {
       />
 
       {slider?.map((item, index) => {
-        if (slide + 1 == item.id) {
+        if (slide + 1 === item.id) {
           return (
-            <div className="slide-img">
+            <div className="slide-img" key={item.id}>
               <div>
                 <img
                   className={
-                    slide + 1 == item.id ? "slide animate-slide" : "slide"
+                    slide + 1 === item.id ? "slide animate-slide" : "slide"
                   }
                   src={item.img}
                   onClick={navigateto}
                   loading="lazy"
+                  alt=""
                 />
-                {/* <LazyLoadImage
-                className={
-                  slide + 1 == item.id ? "slide animate-slide" : "slide"
-                }
-                src={item.img}
-                onClick={navigateto}
-                effect="blur"
-                placeholderSrc={item.img}
-              /> */}
               </div>
 
               <div className="dots-section">
-                {slider.map((item, index) => {
+                {slider.map((dot, dotIndex) => {
                   return (
                     <div
+                      key={dot.id}
                       className={
-                        slide + 1 == item.id ? "dots active-dots" : "dots"
+                        slide + 1 === dot.id ? "dots active-dots" : "dots"
                       }
-                      onClick={() => moveDot(index)}
+                      onClick={() => moveDot(dotIndex)}
                     ></div>
                   );
                 })}
@@ -110,6 +105,8 @@ const Slider = () => {
             </div>
           );
         }
+
+        return null;
       })}
 
       <FontAwesomeIcon

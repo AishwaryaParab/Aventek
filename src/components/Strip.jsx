@@ -5,8 +5,8 @@ import "./Strip.css";
 const Strip = () => {
   return (
     <div className="strip-div">
-      <img className="strip" src={strip} />
-      <img className="strip" src={strip} />
+      <img className="strip" src={strip} alt="" />
+      <img className="strip" src={strip} alt="" />
     </div>
   )
 }

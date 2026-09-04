@@ -11,14 +11,6 @@ const Navbar = ({contactSection}) => {
   const [isMobile, setIsMobile] = useState(false);
   const navigate = useNavigate();
 
-  const scrollDown = (ref) => {
-    window.scrollTo({
-      top: ref.current.offsetTop,
-      behavior: "smooth"
-    });
-  }
-  
-
   return (
     <div className="navbar">
         <div className="logo">

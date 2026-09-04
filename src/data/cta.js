@@ -1,8 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import catalog from "../images/catalog.svg";
-import gears from "../images/gears.svg";
-import phone from "../images/phone.svg";
-
 import { faBook, faGear, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 export const cta = [
