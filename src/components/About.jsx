@@ -1,48 +1,60 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { aboutImages, teamParagraphs, whyChooseUs } from "../data/about";
+import "./HomeSections.css";
 import "./About.css";
 
 const About = () => {
   return (
-    <div className="about-us">
-      <div className="about-title">
-        <h1>About Us</h1>
+    <>
+      <div className="page-banner">
+        <div className="page-banner-inner">
+          <h1 className="page-banner-title">About Us</h1>
+          <p className="page-banner-sub">
+            Engineers who know the parts, the markets and the machines they go
+            into.
+          </p>
+        </div>
       </div>
 
-      <div className="about-content">
-        <p>
-          Aventek Engineering Solutions is a fastest growing organisation for
-          quality genuine spares, with expert after sales support. It is a
-          one-stop-shop for genuine spare parts relating to all concreting
-          requirements across India. With over 30 years of experience with
-          concreting equipment, our proficient team is looking forward to
-          streamlining your processes with top-notch wear parts that are
-          rigorously tested and then recommended according to your business’s
-          custom needs.
-        </p>
-        <br />
-        <p>
-          Our customers trust us because of our genuine high-quality parts that
-          smoothen their machine cycle and optimize workflows. We provide you
-          with our assistance at every stage of your business to make you aware
-          of the right parts that would suit you from day one. We aim at
-          delivering immense value for the enhanced safety and lifelong
-          operation of machine components and accessories.
-        </p>
-        <br />
-        <p>
-          Aventek has its footprint available across Pan India locations. With
-          on stock availability of critical parts, we always ensure maximum
-          up-time of your machineries.
-        </p>
-        <br />
-        <p>
-          With strong regional presence in India, Aventek collaborates with
-          worldwide customers to provide procurement services, delivering
-          significant and sustainable value to organisations in the procurement
-          of their goods and services.
-        </p>
+      <div className="section">
+        <div className="section-inner split">
+          <div>
+            <h2 className="section-heading">Dynamic Team</h2>
+            {teamParagraphs.map((para, index) => (
+              <p className="section-body" key={index}>
+                {para}
+              </p>
+            ))}
+          </div>
+
+          <div className="split-media">
+            <img
+              src={aboutImages.team}
+              alt="Engineering team working together around a table"
+            />
+          </div>
+        </div>
       </div>
-    </div>
+
+      <div className="section section--alt">
+        <div className="section-inner">
+          <h2 className="section-heading section-heading--center">
+            Why Choose Us
+          </h2>
+
+          <div className="why-grid">
+            {whyChooseUs.map((item) => (
+              <div className="why-card" key={item.id}>
+                <FontAwesomeIcon className="why-icon" icon={item.icon} />
+                <h3 className="why-title">{item.title}</h3>
+                <p className="why-body">{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 

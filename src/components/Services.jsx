@@ -1,58 +1,75 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import {
+  serviceLines,
+  qualityControl,
+  vendorManagement,
+} from "../data/services";
+import "./HomeSections.css";
 import "./Services.css";
 
 const Services = () => {
   return (
-    <div className="services">
-      <div className="services-title">
-        <h1>Services</h1>
-      </div>
-
-      <div className="services-content">
-        <div className="services-row1">
-          <p>
-            <span>1. One-Stop Destination for all Concrete Requirements</span>
-            <br />
-            We offer premium quality pump spares, industrial pumps and related
-            accessories in accordance with the international market standards.
-            These parts are available for all concreting requirements at
-            affordable rates.
-          </p>
-          <br />
-          <p>
-            <span>2. Worldwide Sourcing Partner</span>
-            <br />
-            We as a procurement service provider focus on delivering
-            sustainable value to our clients. While offering a complete sourcing
-            service to companies across the globe, we understand the challenges
-            involved and work in partnership to address the risks and deliver
-            results to the bottom line. We have special expertise in key
-            manufacturing processes e.g Forging, Casting, Machining etc.
-          </p>
-
-          <br />
-        </div>
-
-        <div className="services-row2">
-          <p>
-            <span>3. Consultancy for Custom Pumps and Layout</span>
-            <br />
-            Our adept team of spare technicians provide expert assistance in
-            choosing the right pumps and layout for your specific applications.
-            The aim is to identify and satisfy your needs with high-efficiency,
-            authentic and reliable pump operations.
-          </p>
-          <br />
-          <p>
-            <span>4. Retrofitting and Overhauling</span> <br />
-            Aventek Engineering Solutions gives the assurance of timely online
-            and on-site equipment service support, repairs and maintenance for
-            all kinds of machines with our retrofitting and overhauling
-            solutions to minimize component wear and maximize operational life.
+    <>
+      <div className="page-banner">
+        <div className="page-banner-inner">
+          <h1 className="page-banner-title">Services</h1>
+          <p className="page-banner-sub">
+            Spares, sourcing, consultancy and overhauling for concrete
+            equipment, backed by regional stock and on-site support.
           </p>
         </div>
       </div>
-    </div>
+
+      <div className="section">
+        <div className="section-inner service-grid">
+          {serviceLines.map((item, index) => (
+            <div className="service-line" key={item.id}>
+              <div className="service-line-head">
+                <FontAwesomeIcon
+                  className="service-line-icon"
+                  icon={item.icon}
+                />
+                <span className="service-line-number">
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+              </div>
+              <h2 className="service-line-title">{item.title}</h2>
+              <p className="section-body">{item.body}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="section section--alt">
+        <div className="section-inner detail-columns">
+          <div>
+            <h2 className="section-heading">Quality Control</h2>
+            <ul className="check-list">
+              {qualityControl.map((point, index) => (
+                <li key={index}>
+                  <FontAwesomeIcon className="check-icon" icon={faCheck} />
+                  <span>{point}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h2 className="section-heading">Vendor Management</h2>
+            <ul className="check-list">
+              {vendorManagement.map((point, index) => (
+                <li key={index}>
+                  <FontAwesomeIcon className="check-icon" icon={faCheck} />
+                  <span>{point}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 

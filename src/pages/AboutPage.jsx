@@ -1,15 +1,16 @@
-import React from 'react'
-import { Navbar, Strip } from '../components'
-import About from '../components/About'
+import React from "react";
+import { Footer, GetInTouch, Navbar } from "../components";
+import About from "../components/About";
 
 const AboutPage = () => {
   return (
     <div>
-        <Navbar />
-        <About />
-        <Strip />
+      <Navbar />
+      <About />
+      <GetInTouch />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default AboutPage
+export default AboutPage;

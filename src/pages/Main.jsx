@@ -1,16 +1,29 @@
-import React, { useRef } from "react";
+import React from "react";
 import "../styles.css";
-import { Contact, Footer, Home, Navbar, Slider, Strip } from "../components";
+import {
+  ClientStories,
+  Features,
+  Footer,
+  GetInTouch,
+  Hero,
+  Navbar,
+  ServicesOverview,
+  Solutions,
+  WorldwideSourcing,
+} from "../components";
 
 function Main() {
   return (
     <div className="Main">
-        <Navbar />
-        <Home />
-        <Slider />
-        <Strip />
-        <Contact />
-        <Footer />
+      <Navbar />
+      <Hero />
+      <Features />
+      <Solutions />
+      <ServicesOverview />
+      <WorldwideSourcing />
+      <ClientStories />
+      <GetInTouch />
+      <Footer />
     </div>
   );
 }
