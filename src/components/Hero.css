@@ -5,7 +5,7 @@
       rgba(20, 20, 20, 0.55) 55%,
       rgba(20, 20, 20, 0.3) 100%
     ),
-    url("../images/homeImage.jpg");
+    url("https://cdn.builder.io/api/v1/image/assets%2F252d9785e8284db89301f22ec23d60bb%2F2382c5daf7cd44e9832befc52063f5b2");
   background-position: center;
   background-size: cover;
   min-height: 560px;
