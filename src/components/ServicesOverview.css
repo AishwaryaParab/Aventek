@@ -3,7 +3,7 @@
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 500;
-  color: var(--accent);
+  color: var(--accent-deep);
   max-width: 640px;
   margin: 0 auto 56px;
   line-height: 1.6;
@@ -27,7 +27,7 @@
 .service-icon {
   width: 28px;
   height: 28px;
-  color: var(--accent);
+  color: var(--accent-deep);
   margin-bottom: 18px;
 }
 

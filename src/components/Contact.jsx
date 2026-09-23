@@ -3,16 +3,16 @@ import "./HomeSections.css";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 
-const REGIONS = [
-  "Mumbai",
-  "Hyderabad",
-  "Telangana",
-  "Gujarat",
-  "Rajasthan",
-  "Kerala",
-];
+// const REGIONS = [
+//   "Mumbai",
+//   "Hyderabad",
+//   "Telangana",
+//   "Gujarat",
+//   "Rajasthan",
+//   "Kerala",
+// ];
 
-const DELIVERIES = ["USA", "South East Asia", "South Africa"];
+const DELIVERIES = ["USA", "South East Asia", "South Africa", "Australia"];
 
 const Contact = () => {
   const form = useRef();
@@ -44,9 +44,9 @@ const Contact = () => {
         <div className="page-banner-inner">
           <h1 className="page-banner-title">Contact Us</h1>
           <p className="page-banner-sub">
-            Tell us what you are running and what has failed. We will identify
-            the right part and confirm it is the correct specification for your
-            application.
+            Share your sourcing requirement and our team will identify the right
+            suppliers, confirm specifications, and come back with a clear
+            timeline.
           </p>
         </div>
       </div>
@@ -118,7 +118,7 @@ const Contact = () => {
 
               <div className="field">
                 <label htmlFor="contact-message">
-                  What equipment are you running, and what has failed?
+                  Describe the product or component you would like us to source
                 </label>
                 <textarea
                   id="contact-message"
@@ -158,9 +158,8 @@ const Contact = () => {
             <div className="detail-block">
               <h3 className="detail-heading">Worldwide Support Centre</h3>
               <p>Aventek Engineering Solutions LLP</p>
-              <p>Plot No 424, A/P Shindewadi, Tal-Bhor</p>
-              <p>Pune 412205, Maharashtra</p>
-              <p className="detail-meta">State Code: 27</p>
+              <p>Plot No 424, A/P Shindewadi</p>
+              <p>Tal-Bhor, Pune 412205, Maharashtra</p>
               <p className="detail-meta">GSTIN/UIN: 27ABXFA8380R1Z5</p>
             </div>
 
@@ -171,7 +170,7 @@ const Contact = () => {
               </p>
             </div>
 
-            <div className="detail-block">
+            {/* <div className="detail-block">
               <h3 className="detail-heading">Regional Supply and Support</h3>
               <div className="detail-pills">
                 {REGIONS.map((region) => (
@@ -180,7 +179,7 @@ const Contact = () => {
                   </span>
                 ))}
               </div>
-            </div>
+            </div> */}
 
             <div className="detail-block">
               <h3 className="detail-heading">Global Deliveries</h3>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Navbar.css";
-import logo from "../images/logo.jpg";
+import logo from "../images/logo.png";
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
@@ -19,7 +19,7 @@ const Navbar = ({contactSection}) => {
       
         <div className="nav-items">
             <Link to="/" className="item-name">Home</Link>
-            <Link to="/catalog" className="item-name">Catalog</Link>
+            {/* <Link to="/catalog" className="item-name">Catalog</Link> */}
             <Link to="/services" className="item-name">Services</Link>
             <Link to="/about" className="item-name">About Us</Link>
             <Link to="/contact" className="item-name">Contact Us</Link>
@@ -31,7 +31,7 @@ const Navbar = ({contactSection}) => {
         </div>
 
         <div className={isMobile ? "nav-items-mobile active" : "nav-items-mobile"}>
-            <Link to="/catalog" className="item-name">Catalog</Link>
+            {/* <Link to="/catalog" className="item-name">Catalog</Link> */}
             <Link to="/services" className="item-name">Services</Link>
             <Link to="/about" className="item-name">About Us</Link>
             <Link to="/contact" className="item-name">Contact Us</Link>

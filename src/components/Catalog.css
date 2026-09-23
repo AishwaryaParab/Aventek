@@ -7,7 +7,7 @@
     text-align: center;
     margin: 30px 0;
     color: #282828;
-    border-bottom: 3px solid #FF6600;
+    border-bottom: 3px solid #FFC20E;
     width: fit-content;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .catalog-item-content h3 {
-    border-bottom: 2px solid #FF6600;
+    border-bottom: 2px solid #FFC20E;
     width: max-content;
     color: #282828;
 }
@@ -45,7 +45,7 @@
 .products {
     margin-top: 20px;
     padding-left: 10px;
-    border-left: 2px solid #FF6600;
+    border-left: 2px solid #FFC20E;
     margin-left: 10px;
 }
 
@@ -76,7 +76,7 @@
 .catalog-image {
     width: 320px;
     height: 320px;
-    background-color: #FF6600;
+    background-color: #FFC20E;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,7 +99,7 @@
     }  
     
     .catalog-item-content h3 {
-        border-bottom: 2px solid #FF6600;
+        border-bottom: 2px solid #FFC20E;
         width: fit-content;
         color: #282828;
     }

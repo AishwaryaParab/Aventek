@@ -4,8 +4,8 @@
 
 .logo-row {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
   margin-top: 64px;
 }
 
@@ -47,7 +47,7 @@
   margin-top: 12px;
   font-size: 17px;
   font-weight: 600;
-  color: var(--accent);
+  color: var(--accent-deep);
 }
 
 .testimonial-role {
@@ -80,7 +80,7 @@
 
 @media (max-width: 900px) {
   .logo-row {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     margin-top: 40px;
   }
 

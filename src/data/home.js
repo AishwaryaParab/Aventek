@@ -123,42 +123,28 @@ export const capabilities = [
   },
 ];
 
-export const clientLogos = [
-  "Client One",
-  "Client Two",
-  "Client Three",
-  "Client Four",
-  "Client Five",
-  "Client Six",
-];
+export const clientLogos = ["Client One", "Client Two", "Client Three"];
 
 export const testimonials = [
   {
     id: 1,
     quote:
-      "Placeholder testimonial. A machine that was down and came back into service faster than expected, with the right part identified and delivered from regional stock.",
-    author: "Company Name",
-    role: "Ready-mix Operator",
+      "AVENTEK has been a dependable partner for our sourcing requirements. Their understanding of technical specifications, supplier coordination, and commitment to quality has helped us maintain smooth and reliable operations.",
+    author: "Iyron D'Silva",
+    role: "Stemtite, Australia",
   },
   {
     id: 2,
     quote:
-      "Placeholder testimonial. A wear part that outlasted what we had been using before, because the metallurgy was matched to the application rather than the price tag.",
-    author: "Company Name",
-    role: "Contractor",
+      "AVENTEK has become a trusted extension of our team. Their ability to identify the right suppliers, manage procurement, and ensure quality and timely delivery has added real value to our business.",
+    author: "Jerome",
+    role: "MTA, US",
   },
   {
     id: 3,
     quote:
-      "Placeholder testimonial. Aventek sourced a component we could not find anywhere else, and confirmed the specification before it shipped.",
-    author: "Company Name",
-    role: "Equipment Owner",
-  },
-  {
-    id: 4,
-    quote:
-      "Placeholder testimonial. An overhaul and retrofit that extended the working life of equipment we were close to replacing.",
-    author: "Company Name",
-    role: "Fleet Manager",
+      "AVENTEK brings a professional and disciplined approach to every assignment. Their focus on quality, documentation, supplier management, and timely delivery gives us confidence in handling critical requirements.",
+    author: "Denice",
+    role: "MTA, US",
   },
 ];

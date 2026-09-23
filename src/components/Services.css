@@ -20,7 +20,7 @@
 .service-line-icon {
   width: 30px;
   height: 30px;
-  color: var(--accent);
+  color: var(--accent-deep);
 }
 
 .service-line-number {
@@ -65,7 +65,7 @@
 .check-icon {
   width: 13px;
   height: 13px;
-  color: var(--accent);
+  color: var(--accent-deep);
   margin-top: 6px;
   flex-shrink: 0;
 }

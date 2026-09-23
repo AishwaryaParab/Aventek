@@ -26,11 +26,11 @@ white-space: no-wrap;
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-  background: #f3873f;
+  background: #FFC20E;
 }
 
 /* Handle on hover */
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #FF6600;
+  background: #ecb100;
 }

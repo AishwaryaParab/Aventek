@@ -34,6 +34,7 @@ const WorldwideSourcing = () => {
               <span className="sourcing-pill">USA</span>
               <span className="sourcing-pill">South East Asia</span>
               <span className="sourcing-pill">South Africa</span>
+              <span className="sourcing-pill">Australia</span>
             </div>
           </div>
         </div>

@@ -115,7 +115,7 @@
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--accent-deep);
   margin-bottom: 12px;
 }
 
@@ -137,7 +137,7 @@
 }
 
 .contact-details a:hover {
-  color: var(--accent);
+  color: var(--accent-deep);
 }
 
 .detail-pills {

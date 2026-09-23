@@ -36,7 +36,7 @@
   height: 34px;
   border-radius: 50%;
   background-color: var(--accent);
-  color: #ffffff;
+  color: var(--ink);
   font-size: 15px;
   font-weight: 600;
   display: flex;
@@ -61,7 +61,7 @@
 .feature-caret {
   width: 11px;
   height: 11px;
-  color: var(--accent);
+  color: var(--accent-deep);
   margin-top: 6px;
   flex-shrink: 0;
   transition: transform 0.25s ease;
@@ -74,7 +74,7 @@
 .feature-title {
   font-size: 19px;
   font-weight: 600;
-  color: var(--accent);
+  color: var(--accent-deep);
   line-height: 1.4;
 }
 

@@ -2,13 +2,13 @@ import React from "react";
 import "../styles.css";
 import {
   ClientStories,
-  Features,
+  // Features,
   Footer,
   GetInTouch,
   Hero,
   Navbar,
   ServicesOverview,
-  Solutions,
+  // Solutions,
   WorldwideSourcing,
 } from "../components";
 
@@ -17,8 +17,8 @@ function Main() {
     <div className="Main">
       <Navbar />
       <Hero />
-      <Features />
-      <Solutions />
+      {/* <Features /> */}
+      {/* <Solutions /> */}
       <ServicesOverview />
       <WorldwideSourcing />
       <ClientStories />

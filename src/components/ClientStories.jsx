@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { clientLogos, testimonials, sectionImages } from "../data/home";
+import { /* clientLogos, */ testimonials, sectionImages } from "../data/home";
 import "./HomeSections.css";
 import "./ClientStories.css";
 
@@ -12,11 +12,13 @@ const ClientStories = () => {
       <div className="section-inner">
         <div className="split stories-head">
           <div>
-            <h2 className="section-heading">Client Success Stories</h2>
+            <p className="section-eyebrow">Partnership-focused</p>
+            <h2 className="section-heading">
+              Building Success Across Industries.
+            </h2>
             <p className="section-body">
-              Our customers range from large ready-mix operators running fleets
-              across multiple sites, to contractors who need a single machine
-              back in service by Monday.
+              Trusted by clients in Construction, Mining, and Shipbuilding to
+              deliver quality, reliability, and on-time performance.
             </p>
           </div>
 
@@ -28,13 +30,13 @@ const ClientStories = () => {
           </div>
         </div>
 
-        <div className="logo-row">
+        {/* <div className="logo-row">
           {clientLogos.map((name) => (
             <div className="logo-tile" key={name}>
               {name}
             </div>
           ))}
-        </div>
+        </div> */}
 
         <div className="testimonial">
           <p className="testimonial-quote">“{current.quote}”</p>

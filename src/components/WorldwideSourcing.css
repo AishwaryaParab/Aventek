@@ -21,7 +21,7 @@
 
 .sourcing-pill {
   border: 1px solid var(--accent);
-  color: var(--accent);
+  color: var(--accent-deep);
   border-radius: 40px;
   padding: 8px 20px;
   font-size: 14px;

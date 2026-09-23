@@ -21,7 +21,7 @@
 .arrow-head {
     font-size: 40px;
     margin: 20px;
-    color: #FF6600;
+    color: #5a6a7d;
     cursor: pointer;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .active-dots {
-    background-color: #FF6600;
+    background-color: #FFC20E;
     border: 3px solid #FFFFFF;
 }
 
@@ -70,7 +70,7 @@
     .arrow-head {
         font-size: 25px;
         margin: 5px;
-        color: #FF6600;
+        color: #5a6a7d;
         cursor: pointer;
     }
 
@@ -84,7 +84,7 @@
     }
 
     .active-dots {
-        background-color: #FF6600;
+        background-color: #FFC20E;
         border: 3px solid #FFFFFF;
     }
 }

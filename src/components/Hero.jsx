@@ -11,11 +11,12 @@ const Hero = () => {
       <div className="hero">
         <div className="hero-inner">
           <h1 className="hero-title">
-            Keep your concrete equipment running with confidence.
+            Beyond Outsourcing. True Business Partnership.
           </h1>
           <p className="hero-sub">
-            We look after your spares and service so that you can focus on
-            finishing the job.
+            We provide reliable, end-to-end outsourcing solutions that extend
+            your capabilities, streamline operations, and deliver measurable
+            value.
           </p>
           <button className="btn btn--accent" onClick={() => navigate("/about")}>
             Learn More
@@ -26,18 +27,22 @@ const Hero = () => {
       <div className="section hero-intro">
         <div className="section-inner">
           <p className="section-body">
-            <strong>Aventek Engineering Solutions LLP</strong> is a
-            one-stop-shop for spare parts, maintenance and refurbishment related
-            to all concrete equipment across India. Our team brings over 30
-            years of experience in the concrete industry, and we use that
-            know-how to offer high-end performance wear parts selected on the
-            metallurgy of the part, not just the price tag.
+            <strong>AVENTEK Engineering Services</strong> is a global
+            outsourcing partner delivering end-to-end engineering and supply
+            chain solutions with a strong focus on strategic sourcing and
+            supplier development.
           </p>
           <p className="section-body">
-            With parts sourced from Europe, China and India and stock held
-            across regional locations, Aventek provides tested components,
-            technical guidance and on-site service support, so your equipment
-            stays productive and your projects stay on schedule.
+            We manage the complete procurement lifecycle, including contract
+            management, supplier coordination, quality control, and performance
+            monitoring.
+          </p>
+          <p className="section-body">
+            Our structured approach ensures competitive sourcing, consistent
+            quality, transparent supplier management, and strict adherence to
+            specifications. With a commitment to on-time delivery and
+            operational excellence, we work as an extension of our clients&rsquo;
+            teams to create reliable, long-term business partnerships.
           </p>
         </div>
       </div>

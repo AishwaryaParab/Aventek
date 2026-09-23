@@ -11,14 +11,16 @@ const GetInTouch = () => {
       <div className="section-inner split">
         <div>
           <h2 className="section-heading section-heading--accent">
-            Get In Touch With Us
+            Let&rsquo;s Discuss How We Can Support Your Business.
           </h2>
           <p className="section-body">
-            Tell us what you are running and what has failed. We will identify
-            the right part, confirm it is the correct specification for your
-            application, and get it to you from regional stock. For larger
-            projects, we will assist with pump selection, layout, retrofitting
-            and ongoing maintenance support.
+            Whether you&rsquo;re looking to streamline sourcing, strengthen
+            supplier management, improve quality, or ensure on-time delivery,
+            our team is ready to help.{" "}
+            <strong>
+              Connect with AVENTEK Engineering Services today and let&rsquo;s
+              build a partnership that delivers results.
+            </strong>
           </p>
           <button className="btn btn--dark" onClick={() => navigate("/contact")}>
             Contact Us
