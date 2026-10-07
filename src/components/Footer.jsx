@@ -53,8 +53,6 @@ const Footer = () => {
           <p className="footer-gstin">
             Email: <a href="mailto:admin@aventek.in">admin@aventek.in</a>
           </p>
-          <p>GSTN: 30ACFFA3259C1Z1</p>
-          <p>PAN: ACFFA3259C</p>
         </div>
 
         <div className="links footer-static">

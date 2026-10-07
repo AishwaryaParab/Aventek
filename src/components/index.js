@@ -10,5 +10,6 @@ export {default as Features} from "./Features";
 export {default as Solutions} from "./Solutions";
 export {default as ServicesOverview} from "./ServicesOverview";
 export {default as WorldwideSourcing} from "./WorldwideSourcing";
+export {default as Sectors} from "./Sectors";
 export {default as ClientStories} from "./ClientStories";
 export {default as GetInTouch} from "./GetInTouch";

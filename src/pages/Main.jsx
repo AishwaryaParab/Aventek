@@ -7,6 +7,7 @@ import {
   GetInTouch,
   Hero,
   Navbar,
+  Sectors,
   ServicesOverview,
   // Solutions,
   WorldwideSourcing,
@@ -21,6 +22,7 @@ function Main() {
       {/* <Solutions /> */}
       <ServicesOverview />
       <WorldwideSourcing />
+      <Sectors />
       <ClientStories />
       <GetInTouch />
       <Footer />

@@ -37,7 +37,11 @@ const ServicesOverview = () => {
               <div className="capability-images">
                 {group.images.map((image, index) => (
                   <div className="capability-image" key={index}>
-                    <img src={image} alt={`${group.title} component`} />
+                    <img
+                      src={image.src ?? image}
+                      style={image.position && { objectPosition: image.position }}
+                      alt={`${group.title} component`}
+                    />
                   </div>
                 ))}
               </div>

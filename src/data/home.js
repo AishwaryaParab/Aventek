@@ -92,7 +92,7 @@ export const capabilities = [
     images: [
       "https://cdn.builder.io/api/v1/image/assets%2F252d9785e8284db89301f22ec23d60bb%2F0e4a0c013d7343c79a01e8490adf9ee9",
       "https://cdn.builder.io/api/v1/image/assets%2F252d9785e8284db89301f22ec23d60bb%2Fce25890ff03846f7a0f3d07f60f5a91b",
-      "https://cdn.builder.io/api/v1/image/assets%2F252d9785e8284db89301f22ec23d60bb%2Fe70a51ea859d40c0b6a4e97695360a75",
+      // "https://cdn.builder.io/api/v1/image/assets%2F252d9785e8284db89301f22ec23d60bb%2Fe70a51ea859d40c0b6a4e97695360a75",
     ],
   },
   {
@@ -105,12 +105,12 @@ export const capabilities = [
     images: [
       "https://cdn.builder.io/api/v1/image/assets%2F252d9785e8284db89301f22ec23d60bb%2F0a9b73d52f2c4b878464ed3767b4ee19",
       "https://cdn.builder.io/api/v1/image/assets%2F252d9785e8284db89301f22ec23d60bb%2F98733ef0cfbf403998b92f3096cf5e75",
-      "https://cdn.builder.io/api/v1/image/assets%2F252d9785e8284db89301f22ec23d60bb%2F8eab80a852364d0dbd2894a748fd725c",
+      // "https://cdn.builder.io/api/v1/image/assets%2F252d9785e8284db89301f22ec23d60bb%2F8eab80a852364d0dbd2894a748fd725c",
     ],
   },
   {
     id: 3,
-    title: "Fabrication",
+    title: "Fabrication / Machining",
     body: [
       "High strength steel fabrications, with precision. Experience with S690 and S960 grades.",
       "Various production processes can be utilized, e.g. laser cutting, punching, shearing and bending.",
@@ -118,8 +118,39 @@ export const capabilities = [
     images: [
       "https://cdn.builder.io/api/v1/image/assets%2F252d9785e8284db89301f22ec23d60bb%2F86a57892febb4563bf05f49472f35964",
       "https://cdn.builder.io/api/v1/image/assets%2F252d9785e8284db89301f22ec23d60bb%2F93fda164ad9c45999eb693bf0b6c0d9c",
-      "https://cdn.builder.io/api/v1/image/assets%2F252d9785e8284db89301f22ec23d60bb%2Ffb6decc0379c4deeaf8468bbf780a6d3",
+      // "https://cdn.builder.io/api/v1/image/assets%2F252d9785e8284db89301f22ec23d60bb%2Ffb6decc0379c4deeaf8468bbf780a6d3",
+      {
+        src: "https://cdn.builder.io/api/v1/image/assets%2F252d9785e8284db89301f22ec23d60bb%2F4b2f149d2f4940e6a961b319c4a399f1",
+        position: "41% center",
+      },
     ],
+  },
+];
+
+export const sectors = [
+  {
+    id: "construction",
+    title: "Construction",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Construction_site_with_concrete_pump_truck.JPG/960px-Construction_site_with_concrete_pump_truck.JPG",
+  },
+  {
+    id: "mining",
+    title: "Mining",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/20190802-OSEC-LSC-0598_%2848443511726%29.jpg/960px-20190802-OSEC-LSC-0598_%2848443511726%29.jpg",
+  },
+  {
+    id: "defence",
+    title: "Defence",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/M2_Bradley_Fighting_Vehicle_Patrol_%286537077%29.jpg/960px-M2_Bradley_Fighting_Vehicle_Patrol_%286537077%29.jpg",
+  },
+  {
+    id: "agriculture",
+    title: "Agriculture",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Steve_Fox_plants_field_corn_into_a_stand_of_cereal_rye_in_Freedom%2C_Indiana_May_12%2C_2022_%2820220512-NRCS-BJOC-020%29.jpg/960px-Steve_Fox_plants_field_corn_into_a_stand_of_cereal_rye_in_Freedom%2C_Indiana_May_12%2C_2022_%2820220512-NRCS-BJOC-020%29.jpg",
   },
 ];
 
@@ -134,17 +165,11 @@ export const testimonials = [
     role: "Stemtite, Australia",
   },
   {
-    id: 2,
-    quote:
-      "AVENTEK has become a trusted extension of our team. Their ability to identify the right suppliers, manage procurement, and ensure quality and timely delivery has added real value to our business.",
-    author: "Jerome",
-    role: "MTA, US",
-  },
-  {
     id: 3,
     quote:
-      "AVENTEK brings a professional and disciplined approach to every assignment. Their focus on quality, documentation, supplier management, and timely delivery gives us confidence in handling critical requirements.",
-    author: "Denice",
-    role: "MTA, US",
+      "Working with Aventek Engineering Services has been seamless due to their outstanding operational management. They handle the complexities of overseas manufacturing effortlessly, providing clear updates and meeting strict timelines. Their leadership team genuinely cares about quality control and client satisfaction, making them a trusted global partner.",
+    author: "Dennis Marcotte",
+    role: "CPIM - Director of Supply Chain",
+    company: "MTA MOTION - USA",
   },
 ];

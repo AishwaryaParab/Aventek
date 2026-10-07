@@ -42,6 +42,9 @@ const ClientStories = () => {
           <p className="testimonial-quote">“{current.quote}”</p>
           <p className="testimonial-author">{current.author}</p>
           <p className="testimonial-role">{current.role}</p>
+          {current.company && (
+            <p className="testimonial-role">{current.company}</p>
+          )}
 
           <div className="testimonial-dots">
             {testimonials.map((item, index) => (
