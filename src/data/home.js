@@ -132,7 +132,7 @@ export const sectors = [
     id: "construction",
     title: "Construction",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Construction_site_with_concrete_pump_truck.JPG/960px-Construction_site_with_concrete_pump_truck.JPG",
+      "https://cdn.builder.io/api/v1/image/assets%2F252d9785e8284db89301f22ec23d60bb%2F26078fb0122b493c9b9ae6605e933844",
   },
   {
     id: "mining",
@@ -170,6 +170,6 @@ export const testimonials = [
       "Working with Aventek Engineering Services has been seamless due to their outstanding operational management. They handle the complexities of overseas manufacturing effortlessly, providing clear updates and meeting strict timelines. Their leadership team genuinely cares about quality control and client satisfaction, making them a trusted global partner.",
     author: "Dennis Marcotte",
     role: "CPIM - Director of Supply Chain",
-    company: "MTA MOTION - USA",
+    company: "MTI MOTION - USA",
   },
 ];
